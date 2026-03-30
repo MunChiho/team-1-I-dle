@@ -1,0 +1,99 @@
+body {
+    font-family: 'Pretendard', sans-serif;
+    background-color: #f5f7fa;
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    background-color: white;
+    max-width: 500px;
+    width: 100%;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.mbti-tag {
+    background-color: #6366f1;
+    color: white;
+    padding: 3px 10px;
+    border-radius: 6px;
+    font-weight: bold;
+    margin: 0 4px;
+    font-size: 0.95em;
+}
+
+.intro-text {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #444;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 30px 0;
+}
+
+h2 {
+    font-size: 1.4rem;
+    color: #222;
+    margin-bottom: 15px;
+}
+
+.tmi-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.tmi-section li {
+    margin-bottom: 10px;
+}
+
+.goal-box {
+    background-color: #f8fafc;
+    padding: 20px;
+    border-radius: 12px;
+    border-left: 5px solid #6366f1;
+}
+
+.highlight {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #4f46e5;
+}
+
+.button-space {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.go-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 7.75rem;
+  height: 3.5rem;
+  border-radius: 2.5rem;
+  background-color: #3692ff;
+  color: #f3f4f6;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
