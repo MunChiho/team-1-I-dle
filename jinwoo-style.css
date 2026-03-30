@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "YeogiOttaeJalnan";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff")
+    format("woff");
+  font-weight: normal;
+  font-display: swap;
+}
+a {
+  text-decoration: none; /* 밑줄 제거 */
+  color: inherit; /* 글자색 부모 요소 따라감 */
+}
+ul {
+  list-style-type: none;
+  padding-left: 0; /* 왼쪽 여백도 같이 제거 */
+}
+body {
+  background-color: #f3f5d9;
+  font-family: "YeogiOttaeJalnan";
+  text-decoration: none;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  background-color: #f2d06b;
+  padding: 20px 40px;
+  border-radius: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 40px 0;
+  align-items: center;
+  text-align: center;
+}
+main {
+  background-color: white;
+  border-radius: 30px;
+}
+.main-title {
+  display: flex;
+  justify-content: center;
+}
+.classroom-contatiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 100px;
+}
+.info {
+  padding: 20px;
+}
+footer {
+  margin-top: 50px;
+}
+.button {
+  background-color: #f2d06b;
+  padding: 20px 120px;
+  border-radius: 40px;
+}
