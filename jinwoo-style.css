@@ -58,7 +58,9 @@ main {
 .info {
   padding: 20px;
 }
-
+footer {
+  margin-top: 50px;
+}
 .button {
   background-color: #f2d06b;
   padding: 20px 120px;
